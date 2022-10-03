@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"
     <title>TK Photo Gallery</title>
 </head>
 <body>
@@ -22,9 +22,10 @@
         </nav>
     </header>
 
+<main>
     <section>
         <h2>About</h2>
-        <img src="assets/TK.png" alt="#" width="850px">
+        <img src="TK.png" alt="#" width="850px">
     
         <p>Hello!</p> 
         <p>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it's taken me all over the world.</p> 
@@ -94,16 +95,24 @@
             <figcaption>Wyoming, 2021</figcaption>
         </figure>
     </section>
+</main>
 
-    <section>
+    <section id="contact">
         <h2>Contact</h2>
         <p>Please fill out this form and I'll connect with you soon.</p>
 
-        Your contact information
-        Name (Your full name)
-        Email (Enter your email address)
-        Message (What can I help you with?)
-        Submit
+        <form>
+            <label for="name">NAME</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">EMAIL</label><br>
+            <input type="text" id="email" name="email">
+
+            Your contact information
+            Name (Your full name)
+            Email (Enter your email address)
+            Message (What can I help you with?)
+            <input type="submit" value="Submit">
+        </form>
     </section>
 
     <footer>
