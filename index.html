@@ -17,83 +17,107 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">^ top</a></li>
+                <li><a href="#top">^ top</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section id="about">
             <h2>About</h2>
             <img src="assets/TK.png" alt="silhouette of a person looking through a camera on a tripod in front of the sunset" width="850px">
             <p>Hello!</p> 
             <p>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it's taken me all over the world.</p> 
         </section>
 
-        <section>
+        <section id="gallery">
             <h2>Gallery</h2>
             <p>Here are some highlights of my work. The locations and year are in the caption.</p>
 
             <section>
-                <figure>
-                    <img src="assets/Chile.png" alt="#" width="420px" height="281px">
-                    <figcaption>Chile, 2001</figcaption>
-                </figure>
+                <section id="chile">
+                    <figure>
+                        <figcaption>Chile, 2001</figcaption>
+                        <img src="assets/Chile.png" alt="#" width="420px" height="281px">
+                    </figure>
+                </section>
 
-                <figure>
-                    <img src="assets/Guatemala.png">
-                    <figcaption>Guatemala, 1997</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/Hawaii.png">
-                    <figcaption>Hawaii, 2010</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/Iran.png">
-                    <figcaption>Iran, 1999</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/Ireland.png">
-                    <figcaption>Ireland, 2012</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/Italy.png">
-                    <figcaption>Italy, 2015</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/Moab-Desert.png">
-                    <figcaption>Moab Desert, 2020</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/Rocky-Mountains.png">
-                    <figcaption>Rocky Mountains, 2009</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/Switzerland.png">
-                    <figcaption>Switzerland, 2014</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/UK.png">
-                    <figcaption>UK, 2005</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/USA.png">
-                    <figcaption>USA, 2021</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/Wyoming.png">
-                    <figcaption>Wyoming, 2021</figcaption>
-                </figure>
+                <section id="guatemala">
+                    <figure>
+                        <figcaption>Guatemala, 1997</figcaption>
+                        <img src="assets/Guatemala.png" alt="#" width="420px" height="281px">
+                    </figure>
+                </section>
+
+                <section id="hawaii">
+                    <figure>
+                        <figcaption>Hawaii, 2010</figcaption>
+                        <img src="assets/Hawaii.png" alt="#" width="420px" height="281px">
+                    </figure>
+                </section>
+
+                <section id="iran">
+                    <figure>
+                        <figcaption>Iran, 1999</figcaption>
+                        <img src="assets/Iran.png" alt="#" width="420px" height="630px">
+                    </figure>
+                </section>
+
+                <section id="ireland">
+                    <figure>
+                        <figcaption>Ireland, 2012</figcaption>
+                        <img src="assets/Ireland.png" alt="#" width="420px" height="630px">
+                    </figure>
+                </section>
+                    
+                <section id="italy">
+                    <figure>
+                        <figcaption>Italy, 2015</figcaption>
+                        <img src="assets/Italy.png" alt="#" width="420px" height="630px">
+                    </figure>
+                </section>
+                    
+                <section id="desert">
+                    <figure>
+                        <figcaption>Moab Desert, 2020</figcaption>
+                        <img src="assets/Moab-Desert.png" alt="#" width="420px" height="281px">
+                    </figure>
+                </section>
+                    
+                <section id="mountains">
+                    <figure>
+                        <figcaption>Rocky Mountains, 2009</figcaption>
+                        <img src="assets/Rocky-Mountains.png" alt="#" width="420px" height="281px">
+                    </figure>
+                </section>
+                    
+                <section id="switzerland">
+                    <figure>
+                        <figcaption>Switzerland, 2014</figcaption>
+                        <img src="assets/Switzerland.png" alt="#" width="420px" height="281px">
+                    </figure>
+                </section>
+                    
+                <section id="uk">
+                    <figure>
+                        <figcaption>UK, 2005</figcaption>
+                        <img src="assets/UK.png" alt="#" width="420px" height="281px">
+                    </figure>
+                </section>
+                    
+                <section id="usa">
+                    <figure>
+                        <figcaption>USA, 2021</figcaption>
+                        <img src="assets/USA.png" alt="#" width="420px" height="281px">
+                    </figure>
+                </section>
+                    
+                <section id="wyoming">
+                    <figure>
+                        <figcaption>Wyoming, 2021</figcaption>
+                        <img src="assets/Wyoming.png" alt="#" width="420px" height="281px">
+                    </figure>
+                </section>
             </section>
         </section>
     </main>
@@ -110,7 +134,7 @@
                 <input type="text" id="email" name="email" value="ENTER YOUR EMAIL ADDRESS"><br>
                 <label for="message">MESSAGE</label><br>
                 <input type="text" id="message" name="message" value="WHAT CAN I HELP YOU WITH?"><br>
-                <input type="submit" value="Submit">
+                <input type="submit" id="submit" value="Submit">
             </form>
         </section>
 
